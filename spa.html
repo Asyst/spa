@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SPA</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="css/spa.css">
+  <link rel="stylesheet" href="css/spa.shell.css">
+
+  <!-- libs -->
+  <script src="js/jq/jquery.js"></script>
+  <script src="js/jq/urianchor/jquery.uriAnchor.js"></script>
+
+  <!-- scripts -->
+  <script src="js/spa.js"></script>
+  <script src="js/spa.shell.js"></script>
+
+  <script>
+    $(function () {
+      spa.initModule( $('#spa') );
+    });
+  </script>
+</head>
+<body>
+
+  <div id="spa"></div>
+
+</body>
+</html>
